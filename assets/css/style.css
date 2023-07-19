@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Headings */
+h1{
+color: #fff;
+font-size: 40px;
+font-weight: 600;
+}
+
+h2{
+color: #fff;
+font-size: 35px;
+font-weight: 400;
+
+}
+
+h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    
+    }
+p{
+color: gray;
+
+}
+
+
+.bg-grey{
+    background-color:#191919;
+}
+
+
+.num{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.row{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+.w-50{
+    width: 50%;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
+}
+.w-100{
+    width: 100%;
+}
+
+.bg-black{
+    background-color: #000;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+.py-10{
+    padding: 10px 0;
+}
+.px-40{
+    padding: 0 40px;
+}
+/**
+* Herobox
+**/
+.herobox{
+    padding: 50px 0;
+    color: #fff;
+}
+.herobox h1{
+    font-size: 4rem;
+}
+.herobox .subheading{
+    margin: 20px 0;
+}
+.herobox .form{
+    width: 360px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+}
+
+.herobox .form input{
+    width: 70%;
+    height: 50px;
+    padding: 0 20px;
+    border: 0;
+}
+.herobox .form button{
+    width: 30%;
+    background-color:#08c4fa;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    cursor: pointer;
+}
+.herobox .form button:hover{
+    background-color:yellow ;
+    color: black;
+}
+.herobox .starsbox{
+    margin: 20px 0;
+}
+
+.herobox .starsbox .stars i{
+    color:aqua;
+}
+
+.herobox .starsbox span{
+    color: antiquewhite;
+    margin-left: 10px;
+}
+
+
+.brands{
+  background-color: #08c4fa;
+  padding: 70px 0;
+  
+  
+}
+
+.brands .row{
+    justify-content: space-evenly;
+}
+
+.brands .col{
+    padding-right: 50px;
+    width: 200px;
+    
+}
+
+
+
+section .heading{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.service-card{
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+}
+
+section.services{
+    padding: 90px 0;
+}
+
+
+.services .service-cards{
+    padding: 90px 0;
+}
+
+.service-card img
+{
+    padding: 0 10px;
+}
+
+.service-card h3{
+    padding: 10px;
+}
+
+.services .about img{
+    width: 100%;
+    border: 2px solid white; 
+    border-radius: 5px;
+}
+
+.services .about .fact .heading{
+   color: #08c4fa;
+   font-size: 50px;
+   text-align: left;
+}
+
+.services .about .fact .subtext{
+    font-size: 15px;
+}
+
+
+.text-left{
+    text-align: left;
+}
+
+.services .service-cards1{
+    padding: 40px 0;
+}
+/* Strategies */
+.strategies{
+    padding: 90px 0;
+}
+
+.strategies .service-cards{
+    padding: 40px 0;
+}
+.strategies .service-cards .service-card a{
+    margin: 20px 0;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+.strategies .service-cards .service-card a i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.strategies .service-cards .service-card a:hover{
+    color: #08c4fa;
+}
