@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: black;
+    padding: 20px 0;
+    
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.nav-gap{
+    gap: 3%;
+    justify-content: space-between;
+}
+
+
+.nav .brand-logo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    overflow: hidden;
+}
+.nav .brand-logo img{
+    width: 100%;
+}
+
+
+ul.nav-list{
+    list-style: none;
+}
+
+li.nav-item{
+    display: inline-block;
+}
+
+a.nav-link{
+    color: #fff;
+    text-decoration: none;
+}

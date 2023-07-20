@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,37 +8,38 @@
 
 
 /* Headings */
-h1{
-color: #fff;
-font-size: 40px;
-font-weight: 600;
+h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
 }
 
-h2{
-color: #fff;
-font-size: 35px;
-font-weight: 400;
+h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
 
 }
 
-h3{
+h3 {
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    
-    }
-p{
-color: gray;
+
+}
+
+p {
+    color: gray;
 
 }
 
 
-.bg-grey{
-    background-color:#191919;
+.bg-grey {
+    background-color: #191919;
 }
 
 
-.num{
+.num {
     font-size: 25px;
     font-weight: 500;
     color: white;
@@ -50,72 +51,96 @@ color: gray;
 
 
 
-.row{
+.row {
     display: flex;
 }
 
-.align-center{
+.gap-5 {
+    gap: 5%;
+}
+
+.align-center {
     align-items: center;
 }
-.w-50{
+
+.w-50 {
     width: 50%;
 }
-.w-60{
+
+.w-60 {
     width: 60%;
 }
-.w-40{
+
+.w-40 {
     width: 40%;
 }
-.w-100{
+
+.w-100 {
     width: 100%;
 }
 
-.bg-black{
+.bg-black {
     background-color: #000;
 }
-.container{
+
+.container {
     width: 1100px;
     margin: auto;
 }
 
-.mt-2{
+.mt-2 {
     margin-top: 2rem;
 }
-.py-10{
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.py-10 {
     padding: 10px 0;
 }
-.px-40{
+
+.px-40 {
     padding: 0 40px;
 }
+
 /**
 * Herobox
 **/
-.herobox{
+.herobox {
     padding: 50px 0;
     color: #fff;
 }
-.herobox h1{
+
+.herobox h1 {
     font-size: 4rem;
 }
-.herobox .subheading{
+
+.herobox .subheading {
     margin: 20px 0;
 }
-.herobox .form{
+
+.herobox .form {
     width: 360px;
     height: 50px;
     background-color: red;
     position: relative;
 }
 
-.herobox .form input{
+.herobox .form input {
     width: 70%;
     height: 50px;
     padding: 0 20px;
     border: 0;
 }
-.herobox .form button{
+
+.herobox .form button {
     width: 30%;
-    background-color:#08c4fa;
+    background-color: #08c4fa;
     color: #fff;
     position: absolute;
     top: 0;
@@ -124,116 +149,317 @@ color: gray;
     border: 0;
     cursor: pointer;
 }
-.herobox .form button:hover{
-    background-color:yellow ;
+
+.herobox .form button:hover {
+    background-color: yellow;
     color: black;
 }
-.herobox .starsbox{
+
+.herobox .starsbox {
     margin: 20px 0;
 }
 
-.herobox .starsbox .stars i{
-    color:aqua;
+.herobox .starsbox .stars i {
+    color: aqua;
 }
 
-.herobox .starsbox span{
+.herobox .starsbox span {
     color: antiquewhite;
     margin-left: 10px;
 }
 
 
-.brands{
-  background-color: #08c4fa;
-  padding: 70px 0;
-  
-  
+.brands {
+    background-color: #08c4fa;
+    padding: 70px 0;
+
+
 }
 
-.brands .row{
+.brands .row {
     justify-content: space-evenly;
 }
 
-.brands .col{
+.brands .col {
     padding-right: 50px;
     width: 200px;
-    
+
 }
 
 
 
-section .heading{
+section .heading {
     color: #fff;
     text-align: center;
     font-size: 40px;
     font-weight: 400;
 }
 
-.service-card{
+.service-card {
     color: #fff;
     text-align: center;
     padding: 0 20px;
 }
 
-section.services{
+section.services {
     padding: 90px 0;
 }
 
 
-.services .service-cards{
+.services .service-cards {
     padding: 90px 0;
 }
 
-.service-card img
-{
+.service-card img {
     padding: 0 10px;
 }
 
-.service-card h3{
+.service-card h3 {
     padding: 10px 0;
 }
 
-.services .about img{
+.services .about img {
     width: 100%;
-    border: 2px solid white; 
+    border: 2px solid white;
     border-radius: 5px;
 }
 
-.services .about .fact .heading{
-   color: #08c4fa;
-   font-size: 50px;
-   text-align: left;
+.services .about .fact .heading {
+    color: #08c4fa;
+    font-size: 50px;
+    text-align: left;
 }
 
-.services .about .fact .subtext{
+.services .about .fact .subtext {
     font-size: 15px;
 }
 
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
-.services .service-cards1{
+.services .service-cards1 {
     padding: 40px 0;
 }
+
 /* Strategies */
-.strategies{
+.strategies {
     padding: 90px 0;
 }
 
-.strategies .service-cards{
+.strategies .service-cards {
     padding: 40px 0;
 }
-.strategies .service-cards .service-card a{
+
+.strategies .service-cards .service-card a {
     margin: 20px 0;
     display: block;
     color: #fff;
     text-decoration: none;
 }
-.strategies .service-cards .service-card a i{
+
+.strategies .service-cards .service-card a i {
     margin-left: 10px;
     font-size: 20px;
 }
-.strategies .service-cards .service-card a:hover{
+
+.strategies .service-cards .service-card a:hover {
     color: #08c4fa;
+}
+
+/* process section classes */
+#process {
+    padding: 90px 0;
+}
+
+
+
+.btn {
+    background-color: #08c4fa;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #08c4fa;
+}
+
+.round-img {
+    border-radius: 5px;
+}
+
+.lm {
+    margin: 80px 0;
+}
+
+.p12 {
+    background-color: #08c4fa;
+    border: 1px solid #08c4fa;
+    color: #fff;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin: auto;
+
+}
+
+.nav {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.nav-gap {
+    gap: 3%;
+    justify-content: space-between;
+}
+
+
+.nav .brand-logo {
+    width: 70px;
+    display: block;
+    overflow: hidden;
+}
+
+.nav .brand-logo img {
+    width: 100%;
+}
+
+
+ul.nav-list {
+    list-style: none;
+}
+
+li.nav-item {
+    display: inline-block;
+}
+
+a.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a.nav-link.btn {
+    display: inline-block;
+}
+
+a.nav-link:hover {
+    color: #08c4fa;
+}
+
+.expert {
+    background-color: #191919;
+    padding: 50px 0;
+}
+
+.gap-45 {
+    gap: 45%;
+}
+
+.team {
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.team-card {
+    height: 300px;
+    width: 33.33%;
+    overflow: hidden;
+    position: relative;
+}
+.team-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+    z-index: 1; /* Ensure the overlay is above the image */
+    opacity: 0;
+}
+
+.team-card:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.team-card:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.team-card:hover::before {
+    opacity: 1; /* Make the overlay visible on hover */
+}
+
+.team-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.footer{
+    background-color: black;
+    padding-top: 100px;
+    
+}
+
+.afooter{
+    color: gray;
+    text-decoration: underline;
+}
+
+.afooter1{
+    color: gray;
+    text-decoration: none;
+}
+
+.links a{
+    
+    color: gray;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.links a:hover{
+color: #08c4fa;
+}
+.hr1{
+    margin-top: 100px ;
+    margin-bottom: 10px;
+}
+.pfoot{
+text-align: center;
+font-size: 12px;
+padding-bottom: 10px;
 }
