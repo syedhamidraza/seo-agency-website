@@ -270,7 +270,7 @@ section.services {
 
 /* process section classes */
 #process {
-    padding: 90px 0;
+    padding: 100px 0;
 }
 
 
@@ -283,6 +283,7 @@ section.services {
     width: fit-content;
     text-decoration: none;
     border-radius: 2px;
+    
 }
 
 .btn:hover {
@@ -366,7 +367,7 @@ a.nav-link:hover {
 
 .expert {
     background-color: #191919;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .gap-45 {
@@ -457,6 +458,10 @@ color: #08c4fa;
 .hr1{
     margin-top: 100px ;
     margin-bottom: 10px;
+}
+.hr2{
+    margin-top: 100px ;
+    margin-bottom: 50px;
 }
 .pfoot{
 text-align: center;
